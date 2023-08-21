@@ -1,0 +1,164 @@
+body, html {
+    margin: 0;
+    color: #000;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    padding:5px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    height: 60px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+header ul {
+    display: flex;
+}
+ul {
+    list-style: none;
+    gap: 3em;
+    padding: 0 1em;
+}
+
+li {
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
+
+
+/* Classes */
+
+.home-link {
+    display: flex;
+    align-items: center;
+}
+
+.home-title {
+    margin: 0px 0px 0px 0.5rem;
+    line-height: 1.5;
+    padding: 0px 0px 0px 0.5em;
+    font-size: 1.15em;
+    font-weight: 700;
+    text-transform: none;
+    border-left: 1px solid
+}
+
+.list-default {
+    border-bottom: 2px solid rgb(224, 23, 130);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top:10px;
+    color: rgb(255, 255, 255);
+}
+
+.main-description {
+    width: 100%;
+    background-color: rgb(0, 87, 183);
+    /* margin-bottom: .2rem; */
+    padding: 1em 2em 0 2em ;
+}
+
+.main-text {
+    text-align: center;
+    padding: 2em 2.5rem 0rem 1rem;
+    line-height: 3em;
+    
+}
+
+.main-text h1 {
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: 1;
+}
+
+.main-text h2 {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.main-img {
+    height: 100%;
+    object-fit: fill;
+    width: 100%;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.main-description button {
+    font-weight: 700;
+    border: 2px solid rgb(0, 209, 240);
+    border-radius: 3rem;
+    padding: calc(0.75em - 2px) 1.5625em;
+    font-size: 1em;
+    line-height: 1.5;
+    flex-direction: row;
+    color: rgb(0, 66, 107);
+    background-color: rgb(0, 209, 240);
+}
+   
+
+.main-button {
+    text-align: center;
+    padding: 1.3em;
+}
+
+.desc-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2em ; 
+}
+.desc-text {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+.desc-info h1 {
+    color: rgb(0, 66, 107);
+    font-size: 3em;
+    line-height: 1.2;
+    margin : 0px 0px 1.5rem;
+
+}
+
+
+
+.desc-info p {
+    font-size: 1.25em;
+    line-height: 1.6;
+}
+
+
+
+
+/* ID  */
+
+#home-icon {
+    max-height: 2.5em;
+    height: 40px;
+    width: 8rem;
+}
+
+#home-title-link {
+    color: rgb(0, 87, 183);
+}
